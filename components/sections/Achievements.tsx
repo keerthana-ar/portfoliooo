@@ -32,25 +32,27 @@ export const Achievements = () => {
 
             <div className="space-y-4">
                 {achievements.map((item, index) => (
-                    <GlassCard key={index} className="p-4 flex flex-col md:flex-row gap-4 items-start md:items-center group" hoverEffect={false}>
-                        <div className="text-terminal-green font-mono text-xl font-bold min-w-[50px] text-center">
-                            ✓
-                        </div>
-                        <div className="flex-grow">
-                            <h3 className="text-lg font-bold text-white group-hover:text-terminal-green transition-colors">
-                                {item.title}
-                            </h3>
-                            <p className="text-gray-400 text-sm">
-                                {item.desc}
-                            </p>
-                        </div>
-                        <div className="flex flex-col items-end gap-1 min-w-[100px]">
-                            <span className="text-xs font-mono text-gray-500 border border-gray-700 px-2 py-1 rounded">
-                                {item.year}
-                            </span>
-                            <span className="text-xs text-terminal-cyan">
-                                {item.type}
-                            </span>
+                    <GlassCard key={index} className="p-4 group" hoverEffect={false}>
+                        <div className="flex flex-col md:flex-row gap-4 items-start md:items-center">
+                            <div className="text-terminal-green font-mono text-xl font-bold min-w-[50px] text-center">
+                                ✓
+                            </div>
+                            <div className="flex-grow">
+                                <h3 className="text-lg font-bold text-white group-hover:text-terminal-green transition-colors">
+                                    {item.title}
+                                </h3>
+                                <p className="text-gray-400 text-sm">
+                                    {item.desc}
+                                </p>
+                            </div>
+                            <div className="flex flex-col items-end gap-1 min-w-[100px]">
+                                <span className="text-xs font-mono text-gray-500 border border-gray-700 px-2 py-1 rounded">
+                                    {item.year}
+                                </span>
+                                <span className="text-xs text-terminal-cyan">
+                                    {item.type}
+                                </span>
+                            </div>
                         </div>
                     </GlassCard>
                 ))}

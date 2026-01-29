@@ -14,16 +14,18 @@ export const Contact = () => {
                 Currently open to new opportunities. Whether you have a question or just want to say hi, my inbox is always open.
             </p>
 
-            <GlassCard className="inline-flex gap-8 p-6 mx-auto justify-center mb-10" hoverEffect={false}>
-                <a href="https://github.com/keerthana-ar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-green transition-all hover:scale-110">
-                    <Github size={32} />
-                </a>
-                <a href="https://www.linkedin.com/in/keerthana-a-r/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-cyan transition-all hover:scale-110">
-                    <Linkedin size={32} />
-                </a>
-                <a href="mailto:keerthanaar0608@gmail.com" className="text-gray-400 hover:text-orange-400 transition-all hover:scale-110">
-                    <Mail size={32} />
-                </a>
+            <GlassCard className="p-6 mx-auto w-fit mb-10" hoverEffect={false}>
+                <div className="flex items-center gap-8">
+                    <a href="https://github.com/keerthana-ar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-green transition-all hover:scale-110">
+                        <Github size={32} />
+                    </a>
+                    <a href="https://www.linkedin.com/in/keerthana-a-r/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-cyan transition-all hover:scale-110">
+                        <Linkedin size={32} />
+                    </a>
+                    <a href="mailto:keerthanaar0608@gmail.com" className="text-gray-400 hover:text-orange-400 transition-all hover:scale-110">
+                        <Mail size={32} />
+                    </a>
+                </div>
             </GlassCard>
 
             <a
