@@ -13,7 +13,6 @@ const steps = [
     { text: "npm run build", delay: 500, type: "command" },
     { text: "Creating an optimized production build...", delay: 1000, type: "log" },
     { text: "Compiling client components...", delay: 800, type: "log" },
-    { text: "Minifying assets...", delay: 600, type: "log" },
     { text: "Sipping matcha...", delay: 600, type: "log" },
     { text: "Optimizing images...", delay: 600, type: "log" },
     { text: "Build successful!", delay: 500, type: "success" },
