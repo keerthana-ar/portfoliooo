@@ -29,7 +29,7 @@ const bitcount = Bitcount_Single({
 });
 
 export const metadata: Metadata = {
-  title: 'developer portfolio',
+  title: 'Keerthana A R',
   description: 'cyberpunk inspired developer portfolio',
 };
 
