@@ -4,22 +4,22 @@ import { GlassCard } from "@/components/ui/GlassCard";
 
 const achievements = [
     {
-        title: "Hackathon Winner",
-        desc: "1st Place at TechNova 2025. Built an AI-powered accessibility tool.",
-        year: "2025",
+        title: "WE Scholar (TalentSprint & Google)",
+        desc: "Selected as Top 1% out of 30,000+ applicants. Awarded 100% scholarship and Rs. 1 Lakh stipend.",
+        year: "2024",
         type: "Award"
     },
     {
-        title: "Open Source Contributor",
-        desc: "Merged PRs into major React libraries including shadcn/ui.",
+        title: "Campus Lead, TinkerHub",
+        desc: "Spearheading tech initiatives, mentoring students, and organizing hackathons and workshops on campus.",
         year: "2024",
-        type: "Community"
+        type: "Leadership"
     },
     {
-        title: "Campus Lead",
-        desc: "Led a community of 500+ student developers at TinkerHub.",
+        title: "B.Tech CSE - LBSITW",
+        desc: "Pursuing Computer Science Engineering with 8.23 CGPA. Active in technical societies.",
         year: "2023",
-        type: "Leadership"
+        type: "Education"
     }
 ];
 

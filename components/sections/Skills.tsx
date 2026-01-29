@@ -3,9 +3,9 @@
 import { TerminalWindow } from "@/components/ui/TerminalWindow";
 
 const skills = {
-    frontend: ["React", "Next.js", "Tailwind CSS", "Framer Motion", "TypeScript"],
-    backend: ["Node.js", "PostgreSQL", "Prisma", "Python", "Redis"],
-    tools: ["Git", "Docker", "AWS", "Figma", "Vercel"]
+    frontend: ["React.js", "Next.js", "JavaScript", "HTML/CSS", "Framer Motion"],
+    backend: ["Python", "TensorFlow", "Keras", "MySQL", "Selenium", "Java", "C"],
+    tools: ["Git", "Linux", "WSL", "LaTeX", "Figma"]
 };
 
 export const Skills = () => {
@@ -58,21 +58,21 @@ export const Skills = () => {
                     <div className="space-y-2 text-sm">
                         <p>&#123;</p>
                         <div className="pl-4">
-                            <p><span className="text-terminal-cyan">"frontend"</span>: [</p>
+                            <p><span className="text-terminal-cyan">&quot;frontend&quot;</span>: [</p>
                             <p className="pl-4 text-orange-300">
                                 {skills.frontend.map(s => `"${s}"`).join(", ")}
                             </p>
                             <p>],</p>
                         </div>
                         <div className="pl-4">
-                            <p><span className="text-terminal-purple">"backend"</span>: [</p>
+                            <p><span className="text-terminal-purple">&quot;backend&quot;</span>: [</p>
                             <p className="pl-4 text-orange-300">
                                 {skills.backend.map(s => `"${s}"`).join(", ")}
                             </p>
                             <p>],</p>
                         </div>
                         <div className="pl-4">
-                            <p><span className="text-terminal-green">"tools"</span>: [</p>
+                            <p><span className="text-terminal-green">&quot;tools&quot;</span>: [</p>
                             <p className="pl-4 text-orange-300">
                                 {skills.tools.map(s => `"${s}"`).join(", ")}
                             </p>

@@ -5,22 +5,22 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
     {
-        title: "Project Alpha",
-        description: "A futuristic dashboard built with Next.js and Tremor. Features real-time data visualization and dark mode analytics.",
-        tags: ["Next.js", "TypeScript", "Tailwind"],
-        links: { demo: "#", git: "#" },
+        title: "DormBuddy",
+        description: "AI-powered college life assistant chatbot helping students with timetables, tasks, and social guidance. Features personality modes and context-aware prompting.",
+        tags: ["FastAPI", "Llama3-70B", "Python", "HTML"],
+        links: { demo: "#", git: "https://github.com/keerthana-ar" },
     },
     {
-        title: "Neon Commerce",
-        description: "Full-stack e-commerce platform with stripe integration and headless CMS. Optimized for speed and conversion.",
-        tags: ["React", "Node.js", "Stripe"],
-        links: { demo: "#", git: "#" },
+        title: "Python Automation Tool",
+        description: "Automated bulk WhatsApp messaging tool using Selenium. Integrates with Google Sheets to extract contacts and sends personalized messages automatically.",
+        tags: ["Python", "Selenium", "Google Apps Script"],
+        links: { demo: "#", git: "https://github.com/keerthana-ar" },
     },
     {
-        title: "AI Chat Interface",
-        description: "ChatGPT clone with streaming responses and custom personality directives. Uses OpenAI API.",
-        tags: ["AI", "OpenAI", "Vercel SDK"],
-        links: { demo: "#", git: "#" },
+        title: "Portfolio Website",
+        description: "Modern cyberpunk-themed developer portfolio built with Next.js and Framer Motion. Features terminal aesthetics, glassmorphism, and smooth animations.",
+        tags: ["Next.js", "TypeScript", "Tailwind", "Framer Motion"],
+        links: { demo: "#", git: "https://github.com/keerthana-ar/portfoliooo" },
     },
 ];
 

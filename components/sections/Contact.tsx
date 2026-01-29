@@ -1,7 +1,7 @@
 "use client";
 
 import { GlassCard } from "@/components/ui/GlassCard";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 export const Contact = () => {
     return (
@@ -15,22 +15,19 @@ export const Contact = () => {
             </p>
 
             <GlassCard className="inline-flex gap-8 p-6 mx-auto justify-center mb-10" hoverEffect={false}>
-                <a href="#" className="text-gray-400 hover:text-terminal-green transition-all hover:scale-110">
+                <a href="https://github.com/keerthana-ar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-green transition-all hover:scale-110">
                     <Github size={32} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-terminal-cyan transition-all hover:scale-110">
+                <a href="https://www.linkedin.com/in/keerthana-a-r/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-terminal-cyan transition-all hover:scale-110">
                     <Linkedin size={32} />
                 </a>
-                <a href="#" className="text-gray-400 hover:text-terminal-purple transition-all hover:scale-110">
-                    <Twitter size={32} />
-                </a>
-                <a href="#" className="text-gray-400 hover:text-orange-400 transition-all hover:scale-110">
+                <a href="mailto:keerthanaar0608@gmail.com" className="text-gray-400 hover:text-orange-400 transition-all hover:scale-110">
                     <Mail size={32} />
                 </a>
             </GlassCard>
 
             <a
-                href="mailto:hello@example.com"
+                href="mailto:keerthanaar0608@gmail.com"
                 className="inline-block border border-terminal-green text-terminal-green px-8 py-3 rounded font-mono hover:bg-terminal-green/10 transition-colors"
             >
                 Say Hello

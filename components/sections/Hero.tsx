@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Terminal } from "lucide-react";
+
 
 export const Hero = () => {
     return (
@@ -29,7 +29,7 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     className="text-5xl md:text-7xl font-bold tracking-tight mb-4 text-white"
                 >
-                    hello, i'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-terminal-green to-terminal-cyan">keerthana</span>
+                    hello, i&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-terminal-green to-terminal-cyan">keerthana</span>
                 </motion.h1>
 
                 <motion.div

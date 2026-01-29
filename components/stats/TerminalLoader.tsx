@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { TerminalWindow } from "@/components/ui/TerminalWindow";
-import { Check, Terminal, Loader2 } from "lucide-react";
+import { Check, Loader2 } from "lucide-react";
 
 interface TerminalLoaderProps {
     onComplete: () => void;
@@ -57,10 +57,10 @@ export const TerminalLoader = ({ onComplete }: TerminalLoaderProps) => {
                                     x: currentStep >= index ? 0 : -10,
                                 }}
                                 className={`flex items-center gap-2 ${step.type === "command"
-                                        ? "text-white font-bold"
-                                        : step.type === "success"
-                                            ? "text-terminal-green"
-                                            : "text-gray-400"
+                                    ? "text-white font-bold"
+                                    : step.type === "success"
+                                        ? "text-terminal-green"
+                                        : "text-gray-400"
                                     }`}
                             >
                                 {step.type === "command" && <span className="text-terminal-green">$</span>}
