@@ -10,22 +10,22 @@ const achievements = [
         type: "Award"
     },
     {
+        title: "BRIK Scholar",
+        desc: "Selected as one of 30 students from 300+ applicants. Mentored by industry experts to build AI/ML solutions.",
+        year: "2024",
+        type: "Fellowship"
+    },
+    {
         title: "Campus Lead, TinkerHub",
         desc: "Spearheading tech initiatives, mentoring students, and organizing hackathons and workshops on campus.",
         year: "2024",
         type: "Leadership"
-    },
-    {
-        title: "B.Tech CSE - LBSITW",
-        desc: "Pursuing Computer Science Engineering with 8.23 CGPA. Active in technical societies.",
-        year: "2023",
-        type: "Education"
     }
 ];
 
 export const Achievements = () => {
     return (
-        <section className="py-20 px-4 max-w-4xl mx-auto">
+        <section id="achievements" className="py-20 px-4 max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-12 flex items-center gap-2">
                 <span className="text-terminal-green">03.</span> Achievements
             </h2>

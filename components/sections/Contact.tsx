@@ -5,9 +5,9 @@ import { Mail, Github, Linkedin } from "lucide-react";
 
 export const Contact = () => {
     return (
-        <section className="py-20 px-4 max-w-2xl mx-auto text-center">
+        <section id="contact" className="py-20 px-4 max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8 text-white">
-                <span className="text-terminal-green">05.</span> Initialize Connection_
+                <span className="text-terminal-green">06.</span> Initialize Connection_
             </h2>
 
             <p className="text-gray-400 mb-10 text-lg">

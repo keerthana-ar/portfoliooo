@@ -7,8 +7,11 @@ import { Hero } from "@/components/sections/Hero";
 import { About } from "@/components/sections/About";
 import { Projects } from "@/components/sections/Projects";
 import { Achievements } from "@/components/sections/Achievements";
+import { Education } from "@/components/sections/Education";
 import { Skills } from "@/components/sections/Skills";
 import { Contact } from "@/components/sections/Contact";
+
+import { Navbar } from "@/components/ui/Navbar";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -27,19 +30,13 @@ export default function Home() {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            {/* Fixed Navigation / Status Bar */}
-            <header className="fixed top-0 left-0 right-0 z-40 border-b border-white/10 bg-black/80 backdrop-blur-md px-6 py-4 flex justify-between items-center text-xs font-mono text-gray-400">
-              <div>Keerthana.dev</div>
-              <div className="flex gap-4">
-                <span className="hidden sm:inline">Context: production</span>
-                <span className="text-terminal-green">Running...</span>
-              </div>
-            </header>
+            <Navbar />
 
             <Hero />
             <About />
             <Projects />
             <Achievements />
+            <Education />
             <Skills />
             <Contact />
           </motion.div>

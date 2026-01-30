@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const Hero = () => {
     return (
-        <section className="min-h-screen flex flex-col justify-center items-center relative overflow-hidden px-4">
+        <section id="home" className="min-h-screen flex flex-col justify-center items-center relative overflow-hidden px-4">
             {/* Background Matrix Effect (Simplified) */}
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-terminal-green/5 via-black to-black z-0 pointer-events-none" />
 
@@ -58,12 +58,12 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.8 }}
                     className="flex flex-col sm:flex-row gap-4 justify-center"
                 >
-                    <button className="px-8 py-3 rounded-lg bg-terminal-green text-black hover:bg-terminal-green/90 transition-colors">
+                    <a href="#projects" className="px-8 py-3 rounded-lg bg-terminal-green text-black hover:bg-terminal-green/90 transition-colors">
                         view projects
-                    </button>
-                    <button className="px-8 py-3 rounded-lg border border-white/20 text-white hover:bg-white/5 transition-colors flex items-center gap-2 justify-center">
+                    </a>
+                    <a href="#contact" className="px-8 py-3 rounded-lg border border-white/20 text-white hover:bg-white/5 transition-colors flex items-center gap-2 justify-center">
                         <span className="font-bold">&gt;_</span> contact me
-                    </button>
+                    </a>
                 </motion.div>
             </div>
         </section>
